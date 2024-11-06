@@ -1,0 +1,10 @@
+https://www.delftstack.com/es/howto/cpp/read-csv-file-in-cpp/
+
+https://help.libreoffice.org/Calc/Importing_and_Exporting_CSV_Files
+
+
+MS Excel will interpret CSV files differently depending on the user's region settings. A 'European' Excel expects semi-colon separated fields (and uses the comma as decimal point). – Kris Apr 28 '15 at 16:42
+My Excel expects semi-colon, but my Libre Office just gives me a bunch of oriental characters. Do you know why? – user3083324 Jul 23 '15 at 16:15
+I'm not familiar with Libre Office but according to their website you might need to set the column delimiter when importing a csv. Instructions are here: help.libreoffice.org/Calc/Importing_and_Exporting_CSV_Files – BHawk Apr 8 '16 at 17:04
+You forgot to escape values that contain separators. – Dzmitry Lazerka Apr 10 '20 at 16:46
+I was getting an access violation error on the close() call using the code above. But this worked for me: std::fstream myFile; myfile.open ("example.csv", std::ios::out | std::ios::app); – tzg Jan 22 at 16:13
